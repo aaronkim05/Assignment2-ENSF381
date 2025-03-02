@@ -6,31 +6,55 @@ Aaron Kim: 30212741
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" href="styles.css">
         <title>Homepage</title>
     </head>
     
     <body>
-        <header>
-            <img style="width: 100px; height: 100px"; src = "logo.jpg">
-            <h1>LMS - Learning Management System</h1>
-        </header>
-        <div>
-            <a href="login.html">Login</a> |
-            <a href="leaderboard.html">Leaderboard</a> |
-            <a href="#">About LMS</a>
+
+        
+            <header>
+                <div class="header-container">
+                    <div class="logo-flex">
+                        <img style="width: 100px; height: 100px"; src = "logo.jpg">
+                    </div>  
+                    <div class="title-flex">
+                        <h1>LMS - Learning Management System</h1>
+                    </div>
+                </div>
+            </header>
+        
+        <div class="navigation-container">
+            <div class="navigation-item">
+                <a href="login.html">Login</a> 
+            </div>
+            <div class="navigation-item">
+                <a href="leaderboard.html">Leaderboard</a> 
+            </div>
+            <div class="navigation-item">
+                <a href="#">About LMS</a>
+            </div>
         </div>
+        
         <main>
-            <h2>About LMS</h2>
-            <p>The Learning Management System (LMS) helps students and instructors manage courses, quizzes, and track
+            <div class="main-content">
+                <h2>About LMS</h2>
+                <p>The Learning Management System (LMS) helps students and instructors manage courses, quizzes, and track
                 performance efficiently.</p>
-                
-            <p>Key Features:</p>
-            <ul>
-                <li>Enroll in courses</li>
-                <li>Attempt quizzes</li>
-                <li>View leaderboards</li>
-            </ul>
+                <div class="key-features">
+                <p>Key Features:</p>
+                </div>
+                <ul>
+                    <div class="list-item">
+                        <li>Enroll in courses</li>
+                    </div>
+                    <li>Attempt quizzes</li>
+                    <li>View leaderboards</li>
+                </ul>
+            </div>
         </main>
+        <div class="footer">
         <footer>© 2025 LMS. All rights reserved.</footer>
+        </div>
     </body>
 </html>
