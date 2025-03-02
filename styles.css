@@ -73,6 +73,51 @@
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
 }
 
+.main-content2{
+    color: #0a519c;
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form-flex{
+    text-align: center;
+    background-color: #d4d4d4;
+    padding: 30px;
+    margin-left: 150px;
+    margin-right: 150px;
+    border-radius: 30px;
+    box-shadow: 10px 5px 5px #d4d4d4;
+}
+
+.userpass{
+    background-color: lightyellow;
+    padding: 10px;
+    border-radius: 5px;
+    border: 3px darkgrey;
+}
+
+.loginbutton{
+    width: 70px;
+    height: 40px;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.forgotpass{
+    color: #004080;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.forgotpass:hover{
+    text-decoration: underline;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .footer {
     background-color: #004080;
     padding: 10px;
