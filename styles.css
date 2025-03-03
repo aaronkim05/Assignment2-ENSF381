@@ -107,6 +107,9 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border: 0px;
 }
+.loginbutton:hover {
+    background-color: #006600;
+}
 
 .forgotpass{
     color: #004080;
