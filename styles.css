@@ -188,6 +188,70 @@
     border-radius: 50%; 
 }
 
+
+.quiztime-banner {
+    border-radius: 10px;
+}
+
+.coursequiz-details {
+    text-align: center;
+    background-color: lightblue;
+    padding: 20px;
+    margin-top: 2px;
+    margin-right: 250px;
+    margin-left: 250px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.coursequiz-details h2{
+    color: #0a519c;
+}
+
+.coursequiz-details p{
+    font-size: larger;
+}
+
+.questions {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.questions p{
+    font-size: large;
+}
+
+.question-items {
+    background-color: lightgray;
+    margin-left: 675px;
+    margin-right: 675px;
+    text-align: left;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.submit-button {
+    background-color: lightblue;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+}
+.submit-button:hover {
+    background-color: darkblue;
+    color: white;
+}
+
+.finish-button {
+    background-color: D32F2F;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.finish-button:hover {
+    background-color: #821b1b;
+}
+
 .footer {
     background-color: #004080;
     padding: 10px;
