@@ -1,21 +1,31 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" href="styles.css">
         <title>Course View</title>
     </head>
     <body>
         <header>
-            <img style="width: 100px; height: 100px"; src = "logo.jpg">
-            <h1>LMS - Learning Management System</h1>
+            <div class="header-container">
+                <div class="logo-flex">
+                    <img style="width: 100px; height: 100px"; src = "logo.jpg">
+                </div>  
+                <div class="title-flex">
+                    <h1>LMS - Learning Management System</h1>
+                </div>
+            </div>
         </header>
-        <h2>LMS - Course View</h2>
-        <div>
-            <a href="index.html">Homepage</a>
-            <br><br><br>
+
+        <div class="navigation-container">
+            <div class="navigation-item">
+                <a href="index.html">Homepage</a>
+            </div>
         </div>
-        <main>
-            <label for="term">Select Term:</label>
-            <select id="term" name="term">
+    
+        <main class="main-content2">
+            <br>
+            <label for="term" style="color:black;">Select Term:</label>
+            <select id="term" name="term" class="termselect">
                 <option value="winter2025">Winter 2025</option>
                 <option value="fall2024">Fall 2024</option>
                 <option value="summer2024">Summer 2024</option>
@@ -26,73 +36,88 @@
             <hr>
             <table style="width:100%; height:100%;">
                 <tr>
-                    <td><img style="width:100%; height:100%"; src = "course1.jpg"></td>
-                    <td><img style="width:100%; height:100%"; src = "course1.jpg"></td>
-                    <td><img style="width:100%; height:100%"; src = "course1.jpg"></td>
-                </tr>
-                <tr>
-                    <td style="height:30px">
+                    <td class="coursetile">
+                        <img style="width:100%; height:100%"; src = "course1.jpg">
+                        <br><br>
                         Course Name: Web Development
+                        <br><br>
+                        Course Code: WD381
+                        <br><br>
+                        <a href="attempt_quiz.html">Attempt Quiz</a>
                     </td>
-                    <td>
+                    <td class="coursetile">
+                        <img style="width:100%; height:100%"; src = "course1.jpg">
+                        <br><br>
                         Course Name: Data Structures
+                        <br><br>
+                        Course Code: DS371
+                        <br><br>
+                        <a href="attempt_quiz.html">Attempt Quiz</a>
                     </td>
-                    <td>
+                    <td class="coursetile"> 
+                        <img style="width:100%; height:100%"; src = "course1.jpg">
+                        <br><br>
                         Course Name: DBMS
+                        <br><br>
+                        Course Code: DB346
+                        <br><br>
+                        <a href="attempt_quiz.html">Attempt Quiz</a>
                     </td>
                 </tr>
+                
                 <tr>
-                    <td style="height:30px">Course Code: WD381</td>
-                    <td>Course Code: DS371</td>
-                    <td>Course Code: DB346</td>
+                    <td class="coursetile">
+                        <img style="width:100%; height:100%"; src = "course1.jpg">
+                        <br><br>
+                        Course Name: Software Testing
+                        <br><br>
+                        Course Code: ST484
+                        <br><br>
+                        <a href="attempt_quiz.html">Attempt Quiz</a>
+                    </td>
+                    <td class="coursetile">
+                        <img style="width:100%; height:100%"; src = "course1.jpg">
+                        <br><br>
+                        Course Name: Software Architectures
+                        <br><br>
+                        Course Code: SA396
+                        <br><br>
+                        <a href="attempt_quiz.html">Attempt Quiz</a>
+                    </td>
                 </tr>
-                <tr>
-                    <td style="height:30px"><a href="attempt_quiz.html">Attempt Quiz</a></td>
-                    <td><a href="attempt_quiz.html">Attempt Quiz</a></td>
-                    <td><a href="attempt_quiz.html">Attempt Quiz</a></td>
-                </tr>
-                <tr>
-                    <td><img style="width:100%; height:100%"; src = "course1.jpg"></td>
-                    <td><img style="width:100%; height:100%"; src = "course1.jpg"></td>
-                </tr>
-                <tr>
-                    <td style="height:30px">Course Name: Software Testing</td>
-                    <td>Course Name: Software Architectures</td>
-                </tr>
-                <tr>
-                    <td style="height: 30px">Course Code: ST484</td>
-                    <td>Course Code: SA396</td>
-                </tr>
-                <tr>
-                    <td style="height:30px"><a href="attempt_quiz.html">Attempt Quiz</a></td>
-                    <td><a href="attempt_quiz.html">Attempt Quiz</a></td>
-                </tr>
-
             </table>
 
+            <br>
             <h2>Pending Invitations</h2>
             <hr>
             <form>
-            <table style="width: 67%; height: 100%">
+            <table style="width: 100%; height: 100%">
                 <tr>
-                    <td><img style="width:100%; height:100%"; src = "course2.jpg"></td>
-                    <td><img style="width:100%; height:100%"; src = "course2.jpg"></td>
-                </tr>
-                <tr>
-                    <td style="height:30px">Course Name: Data Science</td>
-                    <td>Course Name: Machine Learning</td>
-                </tr>
-                <tr>
-                    <td style="height:30px">Course Code: DS102</td>
-                    <td>Course Code: ML105</td>
-                </tr>
-                <tr>
-                    <td style="height:30px"><button style="background-color: lightgreen" type="submit">Accept</button> <button style="background-color: red" type="submit">Decline</button></td>
-                    <td><button style="background-color: lightgreen" type="submit">Accept</button> <button style="background-color: red" type="submit">Decline</button></td>
-
+                    <td class="coursetile">
+                        <img style="width:100%; height:100%"; src = "course2.jpg">
+                        <br><br>
+                        Course Name: Data Science
+                        <br><br>
+                        Course Code: DS102
+                        <br><br>
+                        <button type="submit" class="acceptbutton">Accept</button> <button type="submit" class="declinebutton">Decline</button>
+                    </td>
+                    <td class="coursetile">
+                        <img style="width:100%; height:100%"; src = "course2.jpg">
+                        <br><br>
+                        Course Name: Machine Learning
+                        <br><br>
+                        Course Code: ML105
+                        <br><br>
+                        <button type="submit" class="acceptbutton">Accept</button> <button type="submit" class="declinebutton">Decline</button>
+                    </td>
                 </tr>
             </table>
         </main>
-        <footer><br>© 2025 LMS. All rights reserved.</footer>
+
+        <br><br>
+        <div class="footer">
+            <footer>© 2025 LMS. All rights reserved.</footer>
+        </div>
     </body>
 </html>

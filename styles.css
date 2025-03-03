@@ -105,6 +105,7 @@
     border-radius: 5px;
     font-size: 16px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 0px;
 }
 
 .forgotpass{
@@ -116,6 +117,46 @@
 .forgotpass:hover{
     text-decoration: underline;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.termselect{
+    background-color: lightyellow;
+    border-radius: 5px;
+    padding: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.coursetile{
+    background-color: #e6f2ff;
+    box-shadow: 10px 5px 5px #d4d4d4;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+.acceptbutton{
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    height: 30px;
+    width: 60px;
+    border: 0px;
+}
+.acceptbutton:hover{
+    background-color: #265e28;
+}
+
+.declinebutton{
+    background-color: #D32F2F;
+    color: white;
+    border-radius: 5px;
+    height: 30px;
+    width: 60px;
+    border: 0px;
+}
+
+.declinebutton:hover{
+    background-color: #821b1b;
 }
 
 .footer {
