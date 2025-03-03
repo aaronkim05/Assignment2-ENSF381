@@ -1,52 +1,31 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="styles.css">
         <title>Login</title>
     </head>
     <body>
         <header>
-            <div class="header-container">
-                <div class="logo-flex">
-                    <img style="width: 100px; height: 100px"; src = "logo.jpg">
-                </div>  
-                <div class="title-flex">
-                    <h1>LMS - Learning Management System</h1>
-                </div>
-            </div>
+            <img style="width: 100px; height: 100px"; src = "logo.jpg">
+            <h1>LMS - Learning Management System</h1>
         </header>
-
-        <div class="navigation-container">
-            <div class="navigation-item">
-                <a href="index.html">Homepage</a>
-            </div>
+        <h2>LMS Login</h2>
+        <div>
+            <a href="index.html">Homepage</a>
         </div>
-        
-        <div class="main-content2">
-            <h2>LMS Login</h2>
-        </div>
-
-        <main class="form-flex">
+        <main>
+            <br><br>
             <form action="course_view.html">
                 <label for="name">Username:</label>
-                <br><br>
-                <input type="text" id="name" name="username" class="userpass">
+                <input type="text" id="name" name="username">
                 <br><br>
                 <label for="password">Password:</label>
+                <input type="password" id="password" name="password">
                 <br><br>
-                <input type="password" id="password" name="password" class="userpass">
-            </form>
-            <form class="main-content2">
-                <br>
-                <button type="submit" class="loginbutton">Login</button>
+                <button type="submit">Login</button>
                 <br><br>
-                <a href="#" class="forgotpass">Forgot Password?</a>
+                <a href="#">Forgot Password?</a>
             </form>
         </main>
-
-        <br><br>
-        <div class="footer">
-            <footer>© 2025 LMS. All rights reserved.</footer>
-        </div>
+        <footer><br>© 2025 LMS. All rights reserved.</footer>
     </body>
 </html>
