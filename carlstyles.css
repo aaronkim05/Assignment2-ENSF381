@@ -11,7 +11,6 @@
     
 }
 
-
 .logo-flex {
     text-align: center;
     
@@ -66,6 +65,9 @@
     content: "- ";
     color: black;
     font-weight: bold;
+}
+.maincontent-item {
+    margin: 15px;
 }
 
 .key-features{
