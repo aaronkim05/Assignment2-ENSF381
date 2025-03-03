@@ -159,6 +159,35 @@
     background-color: #821b1b;
 }
 
+.tableHeader{
+    background-color: #4CAF50;
+    color: white;
+}
+
+.rankGold{
+    background-color: #FFD700;
+}
+
+.rankSilver{
+    background: #C0C0C0;
+}
+
+.rankBronze{
+    background-color: #CD7F32;
+}
+
+.rankOther1{
+    background-color: #f9f9f9;
+}
+
+.rankOther2{
+    background-color: #e4e2e2;
+}
+
+.studentBorder{
+    border-radius: 50%; 
+}
+
 .footer {
     background-color: #004080;
     padding: 10px;
