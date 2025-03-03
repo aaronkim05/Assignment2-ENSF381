@@ -1,31 +1,55 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" href="styles.css">
         <title>Login</title>
     </head>
     <body>
         <header>
-            <img style="width: 100px; height: 100px"; src = "logo.jpg">
-            <h1>LMS - Learning Management System</h1>
+            <div class="header-container">
+                <div class="logo-flex">
+                    <img style="width: 100px; height: 100px"; src = "logo.jpg">
+                </div>
+                <div class="title-flex">
+                    <h1>LMS - Learning Management System</h1>
+                </div>
+            </div>
         </header>
-        <h2>LMS Login</h2>
-        <div>
-            <a href="index.html">Homepage</a>
+        
+        <div class="navigation-container">
+            <div class="navigation-item">
+                <a href="index.html">Homepage</a>
+            </div>
+        </div>
+        <div class="lms-login">
+            <h2>LMS Login</h2>
         </div>
         <main>
+            <div class="login-form">
             <br><br>
             <form action="course_view.html">
                 <label for="name">Username:</label>
-                <input type="text" id="name" name="username">
+                <div class="input-fields">
+                    <input type="text" id="name" name="username">
+                </div>
                 <br><br>
                 <label for="password">Password:</label>
-                <input type="password" id="password" name="password">
+                <div class="input-fields">
+                    <input type="password" id="password" name="password">
+                </div>
+            </div>
                 <br><br>
                 <button type="submit">Login</button>
                 <br><br>
                 <a href="#">Forgot Password?</a>
             </form>
+            
         </main>
-        <footer><br>© 2025 LMS. All rights reserved.</footer>
+        <div class="footer">
+        <footer>
+            <br>
+            © 2025 LMS. All rights reserved.
+        </footer>
+        </div>
     </body>
 </html>
